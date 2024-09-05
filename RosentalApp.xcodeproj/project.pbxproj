@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5088C952C80E2FD0098FF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5088C942C80E2FD0098FF54 /* AppDelegate.swift */; };
+		B5088C972C80E2FD0098FF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5088C962C80E2FD0098FF54 /* SceneDelegate.swift */; };
+		B5088C9E2C80E3010098FF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5088C9D2C80E3010098FF54 /* Assets.xcassets */; };
+		B5088CA12C80E3010098FF54 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B5088CA02C80E3010098FF54 /* Base */; };
+		B5088CAA2C80E48E0098FF54 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B5088CA92C80E48E0098FF54 /* Alamofire */; };
+		B5479F9A2C80F05300421CE8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479F992C80F05300421CE8 /* WelcomeViewController.swift */; };
+		B5479F9E2C831B0400421CE8 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479F9D2C831B0400421CE8 /* AuthViewController.swift */; };
+		B5479FA02C83886800421CE8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479F9F2C83886800421CE8 /* ProfileViewController.swift */; };
+		B5479FA22C8399FA00421CE8 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FA12C8399FA00421CE8 /* NotificationButton.swift */; };
+		B5479FA42C83A0E100421CE8 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FA32C83A0E100421CE8 /* ProfileInfoView.swift */; };
+		B5479FA62C83A92300421CE8 /* AdressInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FA52C83A92300421CE8 /* AdressInfoView.swift */; };
+		B5479FA82C84844E00421CE8 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FA72C84844E00421CE8 /* AuthModel.swift */; };
+		B5479FAA2C84862F00421CE8 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FA92C84862F00421CE8 /* ProfileModel.swift */; };
+		B5479FAC2C85A32100421CE8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FAB2C85A32100421CE8 /* MessageCell.swift */; };
+		B5479FAE2C85A33F00421CE8 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FAD2C85A33F00421CE8 /* BillCell.swift */; };
+		B5479FB02C85A35200421CE8 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FAF2C85A35200421CE8 /* BannerCell.swift */; };
+		B5479FB22C85DFBE00421CE8 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FB12C85DFBE00421CE8 /* ServiceCell.swift */; };
+		B5479FB52C878E9100421CE8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FB42C878E9100421CE8 /* NetworkService.swift */; };
+		B5479FB72C88328800421CE8 /* TextFieldLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FB62C88328700421CE8 /* TextFieldLabelView.swift */; };
+		B5479FB92C88D31400421CE8 /* RosentalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FB82C88D31400421CE8 /* RosentalTabBarController.swift */; };
+		B5479FBB2C88D39F00421CE8 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5479FBA2C88D39F00421CE8 /* EmptyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5088C912C80E2FD0098FF54 /* RosentalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosentalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5088C942C80E2FD0098FF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5088C962C80E2FD0098FF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5088C9D2C80E3010098FF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5088CA02C80E3010098FF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5088CA22C80E3010098FF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5479F992C80F05300421CE8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B5479F9D2C831B0400421CE8 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		B5479F9F2C83886800421CE8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B5479FA12C8399FA00421CE8 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
+		B5479FA32C83A0E100421CE8 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		B5479FA52C83A92300421CE8 /* AdressInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressInfoView.swift; sourceTree = "<group>"; };
+		B5479FA72C84844E00421CE8 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		B5479FA92C84862F00421CE8 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		B5479FAB2C85A32100421CE8 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		B5479FAD2C85A33F00421CE8 /* BillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
+		B5479FAF2C85A35200421CE8 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		B5479FB12C85DFBE00421CE8 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		B5479FB42C878E9100421CE8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B5479FB62C88328700421CE8 /* TextFieldLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLabelView.swift; sourceTree = "<group>"; };
+		B5479FB82C88D31400421CE8 /* RosentalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosentalTabBarController.swift; sourceTree = "<group>"; };
+		B5479FBA2C88D39F00421CE8 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5088C8E2C80E2FD0098FF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5088CAA2C80E48E0098FF54 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5088C882C80E2FD0098FF54 = {
+			isa = PBXGroup;
+			children = (
+				B5088C932C80E2FD0098FF54 /* RosentalApp */,
+				B5088C922C80E2FD0098FF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5088C922C80E2FD0098FF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5088C912C80E2FD0098FF54 /* RosentalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5088C932C80E2FD0098FF54 /* RosentalApp */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FBE2C88DF9C00421CE8 /* App */,
+				B5479FBF2C88DFCF00421CE8 /* Resources */,
+				B5479FC62C88E0DC00421CE8 /* Welcome */,
+				B5479FC02C88E03500421CE8 /* Auth */,
+				B5479FC42C88E0A900421CE8 /* Profile */,
+				B5479FC12C88E05100421CE8 /* Models */,
+				B5479FBC2C88DF6C00421CE8 /* NetworkService */,
+				B5479FBD2C88DF7B00421CE8 /* TabBar */,
+			);
+			path = RosentalApp;
+			sourceTree = "<group>";
+		};
+		B5479FBC2C88DF6C00421CE8 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FB42C878E9100421CE8 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		B5479FBD2C88DF7B00421CE8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FBA2C88D39F00421CE8 /* EmptyViewController.swift */,
+				B5479FB82C88D31400421CE8 /* RosentalTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B5479FBE2C88DF9C00421CE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5088C942C80E2FD0098FF54 /* AppDelegate.swift */,
+				B5088C962C80E2FD0098FF54 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5479FBF2C88DFCF00421CE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5088C9D2C80E3010098FF54 /* Assets.xcassets */,
+				B5088C9F2C80E3010098FF54 /* LaunchScreen.storyboard */,
+				B5088CA22C80E3010098FF54 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5479FC02C88E03500421CE8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B5479F9D2C831B0400421CE8 /* AuthViewController.swift */,
+				B5479FC52C88E0BF00421CE8 /* TextFields */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B5479FC12C88E05100421CE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FA72C84844E00421CE8 /* AuthModel.swift */,
+				B5479FA92C84862F00421CE8 /* ProfileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5479FC22C88E08E00421CE8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FAB2C85A32100421CE8 /* MessageCell.swift */,
+				B5479FAD2C85A33F00421CE8 /* BillCell.swift */,
+				B5479FAF2C85A35200421CE8 /* BannerCell.swift */,
+				B5479FB12C85DFBE00421CE8 /* ServiceCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B5479FC32C88E0A200421CE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FA12C8399FA00421CE8 /* NotificationButton.swift */,
+				B5479FA32C83A0E100421CE8 /* ProfileInfoView.swift */,
+				B5479FA52C83A92300421CE8 /* AdressInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5479FC42C88E0A900421CE8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FC22C88E08E00421CE8 /* Cells */,
+				B5479FC32C88E0A200421CE8 /* Views */,
+				B5479F9F2C83886800421CE8 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B5479FC52C88E0BF00421CE8 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B5479FB62C88328700421CE8 /* TextFieldLabelView.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B5479FC62C88E0DC00421CE8 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B5479F992C80F05300421CE8 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5088C902C80E2FD0098FF54 /* RosentalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5088CA52C80E3010098FF54 /* Build configuration list for PBXNativeTarget "RosentalApp" */;
+			buildPhases = (
+				B5088C8D2C80E2FD0098FF54 /* Sources */,
+				B5088C8E2C80E2FD0098FF54 /* Frameworks */,
+				B5088C8F2C80E2FD0098FF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RosentalApp;
+			packageProductDependencies = (
+				B5088CA92C80E48E0098FF54 /* Alamofire */,
+			);
+			productName = RosentalApp;
+			productReference = B5088C912C80E2FD0098FF54 /* RosentalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5088C892C80E2FD0098FF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B5088C902C80E2FD0098FF54 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B5088C8C2C80E2FD0098FF54 /* Build configuration list for PBXProject "RosentalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5088C882C80E2FD0098FF54;
+			packageReferences = (
+				B5088CA82C80E48E0098FF54 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = B5088C922C80E2FD0098FF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5088C902C80E2FD0098FF54 /* RosentalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5088C8F2C80E2FD0098FF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5088C9E2C80E3010098FF54 /* Assets.xcassets in Resources */,
+				B5088CA12C80E3010098FF54 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5088C8D2C80E2FD0098FF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5479FB02C85A35200421CE8 /* BannerCell.swift in Sources */,
+				B5479FA42C83A0E100421CE8 /* ProfileInfoView.swift in Sources */,
+				B5479F9A2C80F05300421CE8 /* WelcomeViewController.swift in Sources */,
+				B5479FAE2C85A33F00421CE8 /* BillCell.swift in Sources */,
+				B5479FB52C878E9100421CE8 /* NetworkService.swift in Sources */,
+				B5479FBB2C88D39F00421CE8 /* EmptyViewController.swift in Sources */,
+				B5479FAA2C84862F00421CE8 /* ProfileModel.swift in Sources */,
+				B5479FAC2C85A32100421CE8 /* MessageCell.swift in Sources */,
+				B5479FB72C88328800421CE8 /* TextFieldLabelView.swift in Sources */,
+				B5088C952C80E2FD0098FF54 /* AppDelegate.swift in Sources */,
+				B5479FA62C83A92300421CE8 /* AdressInfoView.swift in Sources */,
+				B5479FA22C8399FA00421CE8 /* NotificationButton.swift in Sources */,
+				B5479FB92C88D31400421CE8 /* RosentalTabBarController.swift in Sources */,
+				B5088C972C80E2FD0098FF54 /* SceneDelegate.swift in Sources */,
+				B5479FA02C83886800421CE8 /* ProfileViewController.swift in Sources */,
+				B5479F9E2C831B0400421CE8 /* AuthViewController.swift in Sources */,
+				B5479FB22C85DFBE00421CE8 /* ServiceCell.swift in Sources */,
+				B5479FA82C84844E00421CE8 /* AuthModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5088C9F2C80E3010098FF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5088CA02C80E3010098FF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5088CA32C80E3010098FF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5088CA42C80E3010098FF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5088CA62C80E3010098FF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H87TDKA3ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RosentalApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nnn.RosentalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5088CA72C80E3010098FF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H87TDKA3ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RosentalApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nnn.RosentalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5088C8C2C80E2FD0098FF54 /* Build configuration list for PBXProject "RosentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5088CA32C80E3010098FF54 /* Debug */,
+				B5088CA42C80E3010098FF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5088CA52C80E3010098FF54 /* Build configuration list for PBXNativeTarget "RosentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5088CA62C80E3010098FF54 /* Debug */,
+				B5088CA72C80E3010098FF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5088CA82C80E48E0098FF54 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5088CA92C80E48E0098FF54 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5088CA82C80E48E0098FF54 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5088C892C80E2FD0098FF54 /* Project object */;
+}
